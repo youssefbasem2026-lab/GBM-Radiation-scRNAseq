@@ -93,39 +93,40 @@ The violin plots show the distributions of detected genes (nFeature_RNA), total 
 
 **Figure 1. QC PreFilter GBM131 Naive.**
 
-![Figure 1: QC PreFilter GBM131 Naive](figures/01_QC_PreFilter_GBM131_Naive.png)
+<img width="923" height="376" alt="Screenshot 2026-11-05 003040" src="https://github.com/user-attachments/assets/d42b2c27-fff0-414c-974e-66b311b04ec1" />
+
 
 **Figure 2. QC PreFilter GBM131 RT2d.**
 
-![Figure 2: QC PreFilter GBM131 RT2d](figures/02_QC_PreFilter_GBM131_RT2d.png)
+<img width="907" height="342" alt="Screenshot 2026-11-05 003048" src="https://github.com/user-attachments/assets/8f4ef90a-d7a7-4e58-a511-0f29294d747b" />
 
 **Figure 3. QC PreFilter GBM022 Naive.**
 
-![Figure 3: QC PreFilter GBM022 Naive](figures/03_QC_PreFilter_GBM022_Naive.png)
+<img width="911" height="327" alt="Screenshot 2026-11-05 003054" src="https://github.com/user-attachments/assets/358739b7-2d38-483a-b98d-5f4f7140ba1a" />
 
 **Figure 4. QC PreFilter GBM022 RT2d.**
 
-![Figure 4: QC PreFilter GBM022 RT2d](figures/04_QC_PreFilter_GBM022_RT2d.png)
+<img width="887" height="292" alt="Screenshot 2026-11-05 003059" src="https://github.com/user-attachments/assets/f49214a7-42b2-4a60-aae0-5485157351b6" />
 
 **Figure 5. QC PostFilter GBM131 Naive Overview.**
 
-![Figure 5: QC PostFilter GBM131 Naive Overview](figures/05_QC_PostFilter_GBM131_Naive_Overview.png)
+<img width="876" height="267" alt="Screenshot 2026-11-05 003105" src="https://github.com/user-attachments/assets/39ff1570-3997-4dbf-9f97-e1b615f493e6" />
 
 **Figure 6. QC PostFilter GBM131 Naive Refined.**
 
-![Figure 6: QC PostFilter GBM131 Naive Refined](figures/06_QC_PostFilter_GBM131_Naive_Refined.png)
+<img width="841" height="323" alt="Screenshot 2026-11-05 003112" src="https://github.com/user-attachments/assets/accc6ac4-2cc9-4714-8e5d-7745b6721cd6" />
 
 **Figure 7. QC PostFilter GBM131 RT2d.**
 
-![Figure 7: QC PostFilter GBM131 RT2d](figures/07_QC_PostFilter_GBM131_RT2d.png)
+<img width="817" height="267" alt="Screenshot 2026-11-05 003119" src="https://github.com/user-attachments/assets/eb68a678-4c6f-400d-8ce8-275dd443595f" />
 
 **Figure 8. QC PostFilter GBM022 Naive.**
 
-![Figure 8: QC PostFilter GBM022 Naive](figures/08_QC_PostFilter_GBM022_Naive.png)
+<img width="823" height="336" alt="Screenshot 2026-11-05 003125" src="https://github.com/user-attachments/assets/05914b68-d7fa-421e-9bbf-fac35b9af6ac" />
 
 **Figure 9. QC PostFilter GBM022 RT2d.**
 
-![Figure 9: QC PostFilter GBM022 RT2d](figures/09_QC_PostFilter_GBM022_RT2d.png)
+<img width="810" height="306" alt="Screenshot 2026-11-05 003134" src="https://github.com/user-attachments/assets/71e85f77-ab7d-4982-a313-18f3df3a5b3d" />
 
 ### Doublet detection and removal
 
@@ -133,55 +134,55 @@ scDblFinder doublet scores and class assignments are visualized before and after
 
 **Figure 10. DoubletDetection GBM131 Naive Scatter.**
 
-![Figure 10: DoubletDetection GBM131 Naive Scatter](figures/10_DoubletDetection_GBM131_Naive_Scatter.png)
+<img width="782" height="267" alt="Screenshot 2026-11-05 003140" src="https://github.com/user-attachments/assets/b8563e37-9da4-47c3-9bb0-2c8be4ce0b52" />
 
 **Figure 11. DoubletDetection GBM131 Naive Violin.**
 
-![Figure 11: DoubletDetection GBM131 Naive Violin](figures/11_DoubletDetection_GBM131_Naive_Violin.png)
+<img width="786" height="286" alt="Screenshot 2026-11-05 003145" src="https://github.com/user-attachments/assets/943ecea3-ae92-464e-bed7-d55861465102" />
 
 **Figure 12. DoubletDetection GBM131 RT2d Scatter.**
 
-![Figure 12: DoubletDetection GBM131 RT2d Scatter](figures/12_DoubletDetection_GBM131_RT2d_Scatter.png)
+<img width="767" height="298" alt="Screenshot 2026-11-05 003150" src="https://github.com/user-attachments/assets/cfd21fdc-e6dc-4ab2-aa6f-2f0d41808f17" />
 
 **Figure 13. DoubletDetection GBM131 RT2d Violin.**
 
-![Figure 13: DoubletDetection GBM131 RT2d Violin](figures/13_DoubletDetection_GBM131_RT2d_Violin.png)
+<img width="751" height="267" alt="Screenshot 2026-11-05 003155" src="https://github.com/user-attachments/assets/b01f5683-d70d-4508-81be-d2f1fd7edff2" />
 
 **Figure 14. DoubletDetection GBM022 Naive Scatter.**
 
-![Figure 14: DoubletDetection GBM022 Naive Scatter](figures/14_DoubletDetection_GBM022_Naive_Scatter.png)
+<img width="742" height="282" alt="Screenshot 2026-11-05 003201" src="https://github.com/user-attachments/assets/c50a45e0-bbd6-43df-be86-1b84b44ca263" />
 
 **Figure 15. DoubletRemoval GBM131 Naive Scatter.**
 
-![Figure 15: DoubletRemoval GBM131 Naive Scatter](figures/15_DoubletRemoval_GBM131_Naive_Scatter.png)
+<img width="738" height="282" alt="Screenshot 2026-11-05 003206" src="https://github.com/user-attachments/assets/0531a013-4196-4a53-870d-c806df7e71b5" />
 
 **Figure 16. DoubletRemoval GBM131 Naive Violin.**
 
-![Figure 16: DoubletRemoval GBM131 Naive Violin](figures/16_DoubletRemoval_GBM131_Naive_Violin.png)
+<img width="718" height="280" alt="Screenshot 2026-11-05 003212" src="https://github.com/user-attachments/assets/389dc25e-ff14-47f8-a03c-9d081ff30016" />
 
 **Figure 17. DoubletRemoval GBM131 RT2d Scatter.**
 
-![Figure 17: DoubletRemoval GBM131 RT2d Scatter](figures/17_DoubletRemoval_GBM131_RT2d_Scatter.png)
+<img width="695" height="297" alt="Screenshot 2026-11-05 003218" src="https://github.com/user-attachments/assets/67c7b5b2-0e1a-45c7-bd48-952dcaa168eb" />
 
 **Figure 18. DoubletRemoval GBM022 Naive Scatter.**
 
-![Figure 18: DoubletRemoval GBM022 Naive Scatter](figures/18_DoubletRemoval_GBM022_Naive_Scatter.png)
+<img width="686" height="272" alt="Screenshot 2026-11-05 003225" src="https://github.com/user-attachments/assets/dd1ebc6c-5ac6-450f-99e6-34115b31ea93" />
 
 **Figure 19. DoubletRemoval GBM022 RT2d Scatter.**
 
-![Figure 19: DoubletRemoval GBM022 RT2d Scatter](figures/19_DoubletRemoval_GBM022_RT2d_Scatter.png)
+<img width="672" height="305" alt="Screenshot 2026-11-05 003230" src="https://github.com/user-attachments/assets/7ecab579-3eca-4ba7-9a8a-1e64a79465f0" />
 
 **Figure 20. DoubletRemoval GBM131 RT2d Violin.**
 
-![Figure 20: DoubletRemoval GBM131 RT2d Violin](figures/20_DoubletRemoval_GBM131_RT2d_Violin.png)
+<img width="666" height="277" alt="Screenshot 2026-11-05 003238" src="https://github.com/user-attachments/assets/2ff82852-7796-4d44-a904-2f5ec65366d1" />
 
 **Figure 21. DoubletRemoval GBM022 RT2d Violin.**
 
-![Figure 21: DoubletRemoval GBM022 RT2d Violin](figures/21_DoubletRemoval_GBM022_RT2d_Violin.png)
+<img width="652" height="267" alt="Screenshot 2026-11-05 003243" src="https://github.com/user-attachments/assets/d83926da-9aec-43b7-bf47-90bd15de2767" />
 
 **Figure 22. DoubletRemoval RemainingCellCounts.**
 
-![Figure 22: DoubletRemoval RemainingCellCounts](figures/22_DoubletRemoval_RemainingCellCounts.png)
+<img width="645" height="297" alt="Screenshot 2026-11-05 003249" src="https://github.com/user-attachments/assets/938ed0f8-a385-4837-8e4f-7a53760301c4" />
 
 ### Highly variable feature selection
 
@@ -189,23 +190,23 @@ Mean–variance plots show 2,000 selected highly variable genes (red) against no
 
 **Figure 23. HVG Selection Unlabeled View1.**
 
-![Figure 23: HVG Selection Unlabeled View1](figures/23_HVG_Selection_Unlabeled_View1.png)
+<img width="627" height="305" alt="Screenshot 2026-11-05 003254" src="https://github.com/user-attachments/assets/7dbfba88-521a-4f6f-9f39-bb93305dfaa5" />
 
 **Figure 24. HVG Selection Unlabeled View2.**
 
-![Figure 24: HVG Selection Unlabeled View2](figures/24_HVG_Selection_Unlabeled_View2.png)
+<img width="622" height="275" alt="Screenshot 2026-11-05 003258" src="https://github.com/user-attachments/assets/5b086a4c-d1af-4e6f-946e-4ea09a299a26" />
 
 **Figure 25. HVG Selection Labeled View1.**
 
-![Figure 25: HVG Selection Labeled View1](figures/25_HVG_Selection_Labeled_View1.png)
+<img width="612" height="278" alt="Screenshot 2026-11-05 003303" src="https://github.com/user-attachments/assets/bf81bf66-5fe9-4b07-ada3-1004c7f5926c" />
 
 **Figure 26. HVG Selection Labeled View2.**
 
-![Figure 26: HVG Selection Labeled View2](figures/26_HVG_Selection_Labeled_View2.png)
+<img width="597" height="326" alt="Screenshot 2026-11-05 003309" src="https://github.com/user-attachments/assets/997d7658-ac0e-48d1-966f-f7637967baa6" />
 
 **Figure 27. HVG Selection Labeled View3.**
 
-![Figure 27: HVG Selection Labeled View3](figures/27_HVG_Selection_Labeled_View3.png)
+<img width="675" height="321" alt="Screenshot 2026-11-05 003314" src="https://github.com/user-attachments/assets/a43df47c-c24b-465d-8540-a0214379ac62" />
 
 ### PCA and sample-level UMAP exploration
 
@@ -213,35 +214,35 @@ An elbow plot, four UMAP clusterings with different cluster counts, and heatmaps
 
 **Figure 28. PCA ElbowPlot.**
 
-![Figure 28: PCA ElbowPlot](figures/28_PCA_ElbowPlot.png)
+<img width="660" height="291" alt="Screenshot 2026-11-05 003320" src="https://github.com/user-attachments/assets/06310ab2-8b97-4742-94d5-04ad1216cc11" />
 
 **Figure 29. UMAP Clustering 9Clusters.**
 
-![Figure 29: UMAP Clustering 9Clusters](figures/29_UMAP_Clustering_9Clusters.png)
+<img width="647" height="311" alt="Screenshot 2026-11-05 003325" src="https://github.com/user-attachments/assets/319ab3f7-c4c1-4f8f-bfa9-fb7398a832c1" />
 
 **Figure 30. UMAP Clustering 8Clusters.**
 
-![Figure 30: UMAP Clustering 8Clusters](figures/30_UMAP_Clustering_8Clusters.png)
+<img width="640" height="318" alt="Screenshot 2026-11-05 003330" src="https://github.com/user-attachments/assets/e69e0fb1-ae0b-4fc5-a763-8fc13deb6914" />
 
 **Figure 31. UMAP Clustering 6Clusters.**
 
-![Figure 31: UMAP Clustering 6Clusters](figures/31_UMAP_Clustering_6Clusters.png)
+<img width="627" height="342" alt="Screenshot 2026-11-05 003336" src="https://github.com/user-attachments/assets/751d505d-f39a-422a-b10e-94adbca116c1" />
 
 **Figure 32. UMAP Clustering 4Clusters.**
 
-![Figure 32: UMAP Clustering 4Clusters](figures/32_UMAP_Clustering_4Clusters.png)
+<img width="617" height="338" alt="Screenshot 2026-11-05 003346" src="https://github.com/user-attachments/assets/b88a1ec1-2f4b-4770-8601-7de6272b8668" />
 
 **Figure 33. PCA Top10Components Heatmaps Set1.**
 
-![Figure 33: PCA Top10Components Heatmaps Set1](figures/33_PCA_Top10Components_Heatmaps_Set1.png)
+<img width="738" height="372" alt="Screenshot 2026-11-05 003350" src="https://github.com/user-attachments/assets/69e228d4-03ca-41fd-b14c-eb8d82cfc2b8" />
 
 **Figure 34. PCA PC1 GeneLoadings Heatmap.**
 
-![Figure 34: PCA PC1 GeneLoadings Heatmap](figures/34_PCA_PC1_GeneLoadings_Heatmap.png)
+<img width="247" height="97" alt="Screenshot 2026-11-05 003355" src="https://github.com/user-attachments/assets/b20c2342-e4a7-4717-bb4a-a926e1e650be" />
 
 **Figure 35. PCA Top10Components Heatmaps Set2.**
 
-![Figure 35: PCA Top10Components Heatmaps Set2](figures/35_PCA_Top10Components_Heatmaps_Set2.png)
+<img width="732" height="346" alt="Screenshot 2026-11-05 003403" src="https://github.com/user-attachments/assets/238a0a50-6c87-440c-a8ad-f306c839ad79" />
 
 ### Reference-based cell annotation
 
@@ -249,19 +250,19 @@ SingleR-derived labels are projected onto UMAP embeddings. These are computation
 
 **Figure 36. SingleR Annotation UMAP View1.**
 
-![Figure 36: SingleR Annotation UMAP View1](figures/36_SingleR_Annotation_UMAP_View1.png)
+<img width="705" height="331" alt="Screenshot 2026-11-05 003408" src="https://github.com/user-attachments/assets/efad1884-91fd-4082-abd8-faa388d30182" />
 
 **Figure 37. SingleR Annotation UMAP View2.**
 
-![Figure 37: SingleR Annotation UMAP View2](figures/37_SingleR_Annotation_UMAP_View2.png)
+<img width="700" height="327" alt="Screenshot 2026-11-05 003412" src="https://github.com/user-attachments/assets/ba27c0cf-c573-42f9-9e07-4cd6fb0fb380" />
 
 **Figure 38. SingleR Annotation UMAP View3.**
 
-![Figure 38: SingleR Annotation UMAP View3](figures/38_SingleR_Annotation_UMAP_View3.png)
+<img width="688" height="347" alt="Screenshot 2026-11-05 003417" src="https://github.com/user-attachments/assets/2e7fe9ed-47bf-4fdb-a8f2-0d89aae270a5" />
 
 **Figure 39. SingleR Annotation UMAP View4.**
 
-![Figure 39: SingleR Annotation UMAP View4](figures/39_SingleR_Annotation_UMAP_View4.png)
+<img width="676" height="321" alt="Screenshot 2026-11-05 003422" src="https://github.com/user-attachments/assets/7f5029f4-fb36-44c4-87ce-227b9d4d9fe2" />
 
 ### Integrated cell landscape
 
@@ -269,19 +270,19 @@ UMAP embeddings display sample of origin, treatment condition, cluster identitie
 
 **Figure 40. IntegratedUMAP BySample.**
 
-![Figure 40: IntegratedUMAP BySample](figures/40_IntegratedUMAP_BySample.png)
+<img width="668" height="300" alt="Screenshot 2026-11-05 003427" src="https://github.com/user-attachments/assets/fcb6017e-83e3-421f-9dca-1fd57ba3b560" />
 
 **Figure 41. IntegratedUMAP ByCondition.**
 
-![Figure 41: IntegratedUMAP ByCondition](figures/41_IntegratedUMAP_ByCondition.png)
+<img width="651" height="267" alt="Screenshot 2026-11-05 003433" src="https://github.com/user-attachments/assets/412586d7-d05f-4890-8bda-d9eb764ed013" />
 
 **Figure 42. IntegratedUMAP ByCluster.**
 
-![Figure 42: IntegratedUMAP ByCluster](figures/42_IntegratedUMAP_ByCluster.png)
+<img width="635" height="252" alt="Screenshot 2026-11-05 003438" src="https://github.com/user-attachments/assets/a7fc64a2-af74-4d12-9553-e1dc8c3ee56a" />
 
 **Figure 43. IntegratedUMAP SingleR Annotations.**
 
-![Figure 43: IntegratedUMAP SingleR Annotations](figures/43_IntegratedUMAP_SingleR_Annotations.png)
+<img width="631" height="292" alt="Screenshot 2026-11-05 003443" src="https://github.com/user-attachments/assets/c9d15834-f223-47a9-a04c-671ee20255d2" />
 
 ### GBM-associated expression programs
 
@@ -289,15 +290,15 @@ Dot, feature, and violin plots visualize selected GBM markers including SOX2, OL
 
 **Figure 44. GBMStateMarkers Cluster DotPlot.**
 
-![Figure 44: GBMStateMarkers Cluster DotPlot](figures/44_GBMStateMarkers_Cluster_DotPlot.png)
+<img width="652" height="318" alt="Screenshot 2026-11-05 003449" src="https://github.com/user-attachments/assets/5b8f12f3-b794-4e79-90fa-d79fee8cbbf1" />
 
 **Figure 45. GBMStateMarkers UMAP FeaturePlots.**
 
-![Figure 45: GBMStateMarkers UMAP FeaturePlots](figures/45_GBMStateMarkers_UMAP_FeaturePlots.png)
+<img width="687" height="325" alt="Screenshot 2026-11-05 003454" src="https://github.com/user-attachments/assets/700f272b-21b4-47e0-ba40-5a0192c4c2d5" />
 
 **Figure 46. GBMStateMarkers NaiveVsRT Violin.**
 
-![Figure 46: GBMStateMarkers NaiveVsRT Violin](figures/46_GBMStateMarkers_NaiveVsRT_Violin.png)
+<img width="672" height="291" alt="Screenshot 2026-11-05 003458" src="https://github.com/user-attachments/assets/d15f3c75-c271-44b5-ae01-ac67f63c2436" />
 
 ### Cluster composition and Milo differential abundance
 
@@ -305,15 +306,15 @@ Neighborhood sizes, sample-level cluster proportions, and exploratory Milo diffe
 
 **Figure 47. Milo NeighborhoodSize Distribution.**
 
-![Figure 47: Milo NeighborhoodSize Distribution](figures/47_Milo_NeighborhoodSize_Distribution.png)
+<img width="660" height="257" alt="Screenshot 2026-11-05 003504" src="https://github.com/user-attachments/assets/919138ad-c720-4baf-a439-b32c8f1a58aa" />
 
 **Figure 48. ClusterComposition BySample.**
 
-![Figure 48: ClusterComposition BySample](figures/48_ClusterComposition_BySample.png)
+<img width="655" height="306" alt="Screenshot 2026-11-05 003508" src="https://github.com/user-attachments/assets/78cbd0bd-a254-44c3-82f5-6566b76d962c" />
 
 **Figure 49. Milo DifferentialAbundance Exploratory.**
 
-![Figure 49: Milo DifferentialAbundance Exploratory](figures/49_Milo_DifferentialAbundance_Exploratory.png)
+<img width="642" height="280" alt="Screenshot 2026-11-05 003514" src="https://github.com/user-attachments/assets/ffb94f01-23e3-4d95-a989-2849de318a01" />
 
 ### Paired pseudobulk differential expression
 
@@ -321,27 +322,27 @@ Pseudobulk library sizes and RT-versus-Naive volcano/MA plots show candidate rad
 
 **Figure 50. Pseudobulk LibrarySizes.**
 
-![Figure 50: Pseudobulk LibrarySizes](figures/50_Pseudobulk_LibrarySizes.png)
+<img width="637" height="297" alt="Screenshot 2026-11-05 003521" src="https://github.com/user-attachments/assets/3b89a218-e88d-4dbe-81e9-5888d04f8c32" />
 
 **Figure 51. Pseudobulk RTvsNaive Volcano.**
 
-![Figure 51: Pseudobulk RTvsNaive Volcano](figures/51_Pseudobulk_RTvsNaive_Volcano.png)
+<img width="628" height="272" alt="Screenshot 2026-11-05 003526" src="https://github.com/user-attachments/assets/04fd4845-1ae6-4231-932b-e258fa4a8b5f" />
 
 **Figure 52. Pseudobulk RTvsNaive MAPlot.**
 
-![Figure 52: Pseudobulk RTvsNaive MAPlot](figures/52_Pseudobulk_RTvsNaive_MAPlot.png)
+<img width="610" height="300" alt="Screenshot 2026-11-05 003530" src="https://github.com/user-attachments/assets/2c3714cf-9cfd-4d26-b811-3a48946f3ee5" />
 
 **Figure 53. Pseudobulk RTvsNaive LabeledVolcano View1.**
 
-![Figure 53: Pseudobulk RTvsNaive LabeledVolcano View1](figures/53_Pseudobulk_RTvsNaive_LabeledVolcano_View1.png)
+<img width="650" height="293" alt="Screenshot 2026-11-05 003536" src="https://github.com/user-attachments/assets/b42078d6-55e9-437c-980e-8719524a70dc" />
 
 **Figure 54. Pseudobulk RTvsNaive LabeledVolcano View2.**
 
-![Figure 54: Pseudobulk RTvsNaive LabeledVolcano View2](figures/54_Pseudobulk_RTvsNaive_LabeledVolcano_View2.png)
+<img width="640" height="268" alt="Screenshot 2026-11-05 003542" src="https://github.com/user-attachments/assets/1fb9b34e-3751-4622-a6ef-51aa2ea4cdd1" />
 
 **Figure 55. Pseudobulk DifferentialGeneCounts.**
 
-![Figure 55: Pseudobulk DifferentialGeneCounts](figures/55_Pseudobulk_DifferentialGeneCounts.png)
+<img width="631" height="240" alt="Screenshot 2026-11-05 003548" src="https://github.com/user-attachments/assets/042d3bab-2388-4600-ae9c-e1c2e98ac6d7" />
 
 ### Inferred cluster communication and pathway enrichment
 
@@ -349,23 +350,23 @@ A cluster-to-cluster communication network and GO Biological Process/KEGG enrich
 
 **Figure 56. CellChat ClusterCommunication Network.**
 
-![Figure 56: CellChat ClusterCommunication Network](figures/56_CellChat_ClusterCommunication_Network.png)
+<img width="797" height="375" alt="Screenshot 2026-11-05 003553" src="https://github.com/user-attachments/assets/ec7699f6-17f6-45b2-bc16-8a5dceacc670" />
 
 **Figure 57. GO BP Upregulated Enrichment.**
 
-![Figure 57: GO BP Upregulated Enrichment](figures/57_GO_BP_Upregulated_Enrichment.png)
+<img width="837" height="362" alt="Screenshot 2026-11-05 003558" src="https://github.com/user-attachments/assets/d3a8ef35-523a-4182-8c1a-1f8929dd9bc8" />
 
 **Figure 58. GO BP Downregulated Enrichment.**
 
-![Figure 58: GO BP Downregulated Enrichment](figures/58_GO_BP_Downregulated_Enrichment.png)
+<img width="902" height="457" alt="Screenshot 2026-11-05 003602" src="https://github.com/user-attachments/assets/9775dfd2-e100-4cb7-92b9-283262afe337" />
 
 **Figure 59. KEGG Upregulated Enrichment.**
 
-![Figure 59: KEGG Upregulated Enrichment](figures/59_KEGG_Upregulated_Enrichment.png)
+<img width="895" height="428" alt="Screenshot 2026-11-05 003606" src="https://github.com/user-attachments/assets/fe5bd992-e83c-40b2-aaf2-81eb3f3e1616" />
 
 **Figure 60. KEGG Downregulated Enrichment.**
 
-![Figure 60: KEGG Downregulated Enrichment](figures/60_KEGG_Downregulated_Enrichment.png)
+<img width="678" height="320" alt="Screenshot 2026-11-05 003610" src="https://github.com/user-attachments/assets/d13c28d8-f307-42b7-a583-bcda5dfe55d1" />
 
 ### Mesenchymal-like state and radiation-response genes
 
@@ -373,15 +374,15 @@ Paired MES-like module-score means, a radiation-response marker dot plot, and a 
 
 **Figure 61. GBM MESlike PairedPatientMeans.**
 
-![Figure 61: GBM MESlike PairedPatientMeans](figures/61_GBM_MESlike_PairedPatientMeans.png)
+<img width="665" height="288" alt="Screenshot 2026-11-05 003615" src="https://github.com/user-attachments/assets/a4feab38-8c5d-4fc6-8d3b-1adc67b20d09" />
 
 **Figure 62. RadiationResponse Genes BySample DotPlot.**
 
-![Figure 62: RadiationResponse Genes BySample DotPlot](figures/62_RadiationResponse_Genes_BySample_DotPlot.png)
+<img width="653" height="282" alt="Screenshot 2026-11-05 003620" src="https://github.com/user-attachments/assets/9ccf3543-211c-45a7-afc0-3508b4a8313c" />
 
 **Figure 63. RadiationResponse Genes ScaledExpression Heatmap.**
 
-![Figure 63: RadiationResponse Genes ScaledExpression Heatmap](figures/63_RadiationResponse_Genes_ScaledExpression_Heatmap.png)
+<img width="802" height="450" alt="Screenshot 2026-11-05 003624" src="https://github.com/user-attachments/assets/9acbd93b-f113-42c9-a921-cbdb3e0537a4" />
 
 ## Discussion
 
