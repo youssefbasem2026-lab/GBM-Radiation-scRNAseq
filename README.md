@@ -93,7 +93,7 @@ The violin plots show the distributions of detected genes (nFeature_RNA), total 
 
 **Figure 1. QC PreFilter GBM131 Naive.**
 
-<img width="923" height="376" alt="Screenshot 2026-11-05 003040" src="https://github.com/user-attachments/assets/d42b2c27-fff0-414c-974e-66b311b04ec1" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/3d13ee6a-37c4-4d2d-a6ef-0b06e167926d" />
 
 
 **Figure 2. QC PreFilter GBM131 RT2d.**
