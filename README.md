@@ -1,8 +1,8 @@
-<img width="1310" height="532" alt="image" src="https://github.com/user-attachments/assets/91984392-5385-486c-9e08-0eb347b6c41e" /># Single-Cell Transcriptomic Reanalysis of Radiation Response in Glioblastoma
+# Single-Cell Transcriptomic Reanalysis of Radiation Response in Glioblastoma
 
 **Dataset:** GEO [GSE162931](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162931)  
 **Analysis:** GBM131 and GBM022, untreated (Naive) versus two days after radiation (RT2d)  
-**Author:** [Your full name]  
+**Author:** GitHub user [@youssefbasem2026-lab](https://github.com/youssefbasem2026-lab) (full name not provided)  
 **GitHub:** [youssefbasem2026-lab](https://github.com/youssefbasem2026-lab)
 
 ## Project Description
@@ -85,37 +85,309 @@ The script visualizes selected DNA damage/radiation-response genes, scores cell-
 
 ## Results and Figures
 
-> **To be populated from verified analysis outputs.** The analysis script defines the outputs below, but their successful generation and biological interpretation must be confirmed before reporting findings.
+The following **63 figures** are the actual screenshots supplied for this reanalysis, preserved without altering plot contents. File names have been standardized for GitHub. Each panel is presented as an analysis output, not as proof of independent experimental validation. The order follows the workflow; where exact plot-to-sample correspondence is not visible, captions avoid assuming it.
 
-| Analysis output | Example output location | Status |
-|---|---|---|
-| Integrated UMAP and cluster visualization | `GBM_plots/` | Add verified figure |
-| Cluster composition by sample | `GBM_plots/22_Cluster_composition.png` | Add verified figure |
-| MiloR differential abundance | `GBM_plots/23_Milo_DA_scatter.png` | Add verified figure |
-| Pseudobulk library sizes | `GBM_plots/24_Pseudobulk_library_sizes.png` | Add verified figure |
-| RT vs Naive volcano | `GBM_plots/26_Volcano.png` | Add verified figure |
-| Pseudobulk DE table | `GBM_RT_vs_Naive_DEG.csv` | Verify results |
-| CellChat communication network | `GBM_plots/28_CellChat_Communication_Network.png` | Add verified figure |
-| GBM state scores | `GBM_OPC_like_sample_scores.csv` and corresponding state files | Verify results |
-| Radiation-response genes | `GBM_plots/36_Radiation_DotPlot.png` | Add verified figure |
-| Cell-cycle composition | `GBM_plots/37_CellCycle_Composition.png` | Add verified figure |
-| GO gene set enrichment | `GBM_plots/38_GSEA_GO_DotPlot.png` | Add verified figure |
+### Quality Control — before and after filtering
 
-### Suggested Figure Gallery
+The violin plots show the distributions of detected genes (nFeature_RNA), total UMI counts (nCount_RNA), and mitochondrial read fraction (percent.mt). Early panels include high-mitochondrial outliers; later panels show distributions after QC filtering. The sequence includes multiple intermediate views for GBM131 Naive.
 
-Once the actual PNG files are uploaded, uncomment the following examples:
+**Figure 1. QC PreFilter GBM131 Naive.**
 
-<!--
-![Cluster composition by sample](GBM_plots/22_Cluster_composition.png)
-![RT versus Naive volcano plot](GBM_plots/26_Volcano.png)
-![Radiation response markers](GBM_plots/36_Radiation_DotPlot.png)
--->
+![Figure 1: QC PreFilter GBM131 Naive](figures/01_QC_PreFilter_GBM131_Naive.png)
+
+**Figure 2. QC PreFilter GBM131 RT2d.**
+
+![Figure 2: QC PreFilter GBM131 RT2d](figures/02_QC_PreFilter_GBM131_RT2d.png)
+
+**Figure 3. QC PreFilter GBM022 Naive.**
+
+![Figure 3: QC PreFilter GBM022 Naive](figures/03_QC_PreFilter_GBM022_Naive.png)
+
+**Figure 4. QC PreFilter GBM022 RT2d.**
+
+![Figure 4: QC PreFilter GBM022 RT2d](figures/04_QC_PreFilter_GBM022_RT2d.png)
+
+**Figure 5. QC PostFilter GBM131 Naive Overview.**
+
+![Figure 5: QC PostFilter GBM131 Naive Overview](figures/05_QC_PostFilter_GBM131_Naive_Overview.png)
+
+**Figure 6. QC PostFilter GBM131 Naive Refined.**
+
+![Figure 6: QC PostFilter GBM131 Naive Refined](figures/06_QC_PostFilter_GBM131_Naive_Refined.png)
+
+**Figure 7. QC PostFilter GBM131 RT2d.**
+
+![Figure 7: QC PostFilter GBM131 RT2d](figures/07_QC_PostFilter_GBM131_RT2d.png)
+
+**Figure 8. QC PostFilter GBM022 Naive.**
+
+![Figure 8: QC PostFilter GBM022 Naive](figures/08_QC_PostFilter_GBM022_Naive.png)
+
+**Figure 9. QC PostFilter GBM022 RT2d.**
+
+![Figure 9: QC PostFilter GBM022 RT2d](figures/09_QC_PostFilter_GBM022_RT2d.png)
+
+### Doublet detection and removal
+
+scDblFinder doublet scores and class assignments are visualized before and after removal. The retained-cell bar chart compares the four samples; bar heights are descriptive and are not a formal treatment-effect test.
+
+**Figure 10. DoubletDetection GBM131 Naive Scatter.**
+
+![Figure 10: DoubletDetection GBM131 Naive Scatter](figures/10_DoubletDetection_GBM131_Naive_Scatter.png)
+
+**Figure 11. DoubletDetection GBM131 Naive Violin.**
+
+![Figure 11: DoubletDetection GBM131 Naive Violin](figures/11_DoubletDetection_GBM131_Naive_Violin.png)
+
+**Figure 12. DoubletDetection GBM131 RT2d Scatter.**
+
+![Figure 12: DoubletDetection GBM131 RT2d Scatter](figures/12_DoubletDetection_GBM131_RT2d_Scatter.png)
+
+**Figure 13. DoubletDetection GBM131 RT2d Violin.**
+
+![Figure 13: DoubletDetection GBM131 RT2d Violin](figures/13_DoubletDetection_GBM131_RT2d_Violin.png)
+
+**Figure 14. DoubletDetection GBM022 Naive Scatter.**
+
+![Figure 14: DoubletDetection GBM022 Naive Scatter](figures/14_DoubletDetection_GBM022_Naive_Scatter.png)
+
+**Figure 15. DoubletRemoval GBM131 Naive Scatter.**
+
+![Figure 15: DoubletRemoval GBM131 Naive Scatter](figures/15_DoubletRemoval_GBM131_Naive_Scatter.png)
+
+**Figure 16. DoubletRemoval GBM131 Naive Violin.**
+
+![Figure 16: DoubletRemoval GBM131 Naive Violin](figures/16_DoubletRemoval_GBM131_Naive_Violin.png)
+
+**Figure 17. DoubletRemoval GBM131 RT2d Scatter.**
+
+![Figure 17: DoubletRemoval GBM131 RT2d Scatter](figures/17_DoubletRemoval_GBM131_RT2d_Scatter.png)
+
+**Figure 18. DoubletRemoval GBM022 Naive Scatter.**
+
+![Figure 18: DoubletRemoval GBM022 Naive Scatter](figures/18_DoubletRemoval_GBM022_Naive_Scatter.png)
+
+**Figure 19. DoubletRemoval GBM022 RT2d Scatter.**
+
+![Figure 19: DoubletRemoval GBM022 RT2d Scatter](figures/19_DoubletRemoval_GBM022_RT2d_Scatter.png)
+
+**Figure 20. DoubletRemoval GBM131 RT2d Violin.**
+
+![Figure 20: DoubletRemoval GBM131 RT2d Violin](figures/20_DoubletRemoval_GBM131_RT2d_Violin.png)
+
+**Figure 21. DoubletRemoval GBM022 RT2d Violin.**
+
+![Figure 21: DoubletRemoval GBM022 RT2d Violin](figures/21_DoubletRemoval_GBM022_RT2d_Violin.png)
+
+**Figure 22. DoubletRemoval RemainingCellCounts.**
+
+![Figure 22: DoubletRemoval RemainingCellCounts](figures/22_DoubletRemoval_RemainingCellCounts.png)
+
+### Highly variable feature selection
+
+Mean–variance plots show 2,000 selected highly variable genes (red) against non-variable genes (black). Several views highlight high-variance genes; the exact sample or object associated with each panel is not recoverable from the screenshots alone.
+
+**Figure 23. HVG Selection Unlabeled View1.**
+
+![Figure 23: HVG Selection Unlabeled View1](figures/23_HVG_Selection_Unlabeled_View1.png)
+
+**Figure 24. HVG Selection Unlabeled View2.**
+
+![Figure 24: HVG Selection Unlabeled View2](figures/24_HVG_Selection_Unlabeled_View2.png)
+
+**Figure 25. HVG Selection Labeled View1.**
+
+![Figure 25: HVG Selection Labeled View1](figures/25_HVG_Selection_Labeled_View1.png)
+
+**Figure 26. HVG Selection Labeled View2.**
+
+![Figure 26: HVG Selection Labeled View2](figures/26_HVG_Selection_Labeled_View2.png)
+
+**Figure 27. HVG Selection Labeled View3.**
+
+![Figure 27: HVG Selection Labeled View3](figures/27_HVG_Selection_Labeled_View3.png)
+
+### PCA and sample-level UMAP exploration
+
+An elbow plot, four UMAP clusterings with different cluster counts, and heatmaps of genes associated with principal components document exploratory dimensionality reduction. The four UMAPs must not be interpreted as a chronological progression or as particular samples without matching R code.
+
+**Figure 28. PCA ElbowPlot.**
+
+![Figure 28: PCA ElbowPlot](figures/28_PCA_ElbowPlot.png)
+
+**Figure 29. UMAP Clustering 9Clusters.**
+
+![Figure 29: UMAP Clustering 9Clusters](figures/29_UMAP_Clustering_9Clusters.png)
+
+**Figure 30. UMAP Clustering 8Clusters.**
+
+![Figure 30: UMAP Clustering 8Clusters](figures/30_UMAP_Clustering_8Clusters.png)
+
+**Figure 31. UMAP Clustering 6Clusters.**
+
+![Figure 31: UMAP Clustering 6Clusters](figures/31_UMAP_Clustering_6Clusters.png)
+
+**Figure 32. UMAP Clustering 4Clusters.**
+
+![Figure 32: UMAP Clustering 4Clusters](figures/32_UMAP_Clustering_4Clusters.png)
+
+**Figure 33. PCA Top10Components Heatmaps Set1.**
+
+![Figure 33: PCA Top10Components Heatmaps Set1](figures/33_PCA_Top10Components_Heatmaps_Set1.png)
+
+**Figure 34. PCA PC1 GeneLoadings Heatmap.**
+
+![Figure 34: PCA PC1 GeneLoadings Heatmap](figures/34_PCA_PC1_GeneLoadings_Heatmap.png)
+
+**Figure 35. PCA Top10Components Heatmaps Set2.**
+
+![Figure 35: PCA Top10Components Heatmaps Set2](figures/35_PCA_Top10Components_Heatmaps_Set2.png)
+
+### Reference-based cell annotation
+
+SingleR-derived labels are projected onto UMAP embeddings. These are computational reference matches, not validated identities: malignant GBM cultures can resemble several normal or developmental reference populations.
+
+**Figure 36. SingleR Annotation UMAP View1.**
+
+![Figure 36: SingleR Annotation UMAP View1](figures/36_SingleR_Annotation_UMAP_View1.png)
+
+**Figure 37. SingleR Annotation UMAP View2.**
+
+![Figure 37: SingleR Annotation UMAP View2](figures/37_SingleR_Annotation_UMAP_View2.png)
+
+**Figure 38. SingleR Annotation UMAP View3.**
+
+![Figure 38: SingleR Annotation UMAP View3](figures/38_SingleR_Annotation_UMAP_View3.png)
+
+**Figure 39. SingleR Annotation UMAP View4.**
+
+![Figure 39: SingleR Annotation UMAP View4](figures/39_SingleR_Annotation_UMAP_View4.png)
+
+### Integrated cell landscape
+
+UMAP embeddings display sample of origin, treatment condition, cluster identities, and SingleR labels. The clear separation by patient-derived culture should be considered when interpreting treatment-associated differences and batch integration.
+
+**Figure 40. IntegratedUMAP BySample.**
+
+![Figure 40: IntegratedUMAP BySample](figures/40_IntegratedUMAP_BySample.png)
+
+**Figure 41. IntegratedUMAP ByCondition.**
+
+![Figure 41: IntegratedUMAP ByCondition](figures/41_IntegratedUMAP_ByCondition.png)
+
+**Figure 42. IntegratedUMAP ByCluster.**
+
+![Figure 42: IntegratedUMAP ByCluster](figures/42_IntegratedUMAP_ByCluster.png)
+
+**Figure 43. IntegratedUMAP SingleR Annotations.**
+
+![Figure 43: IntegratedUMAP SingleR Annotations](figures/43_IntegratedUMAP_SingleR_Annotations.png)
+
+### GBM-associated expression programs
+
+Dot, feature, and violin plots visualize selected GBM markers including SOX2, OLIG2, PDGFRA, EGFR, CD44, CHI3L1, VIM, and NES. Marker expression alone cannot establish definitive GBM cell states.
+
+**Figure 44. GBMStateMarkers Cluster DotPlot.**
+
+![Figure 44: GBMStateMarkers Cluster DotPlot](figures/44_GBMStateMarkers_Cluster_DotPlot.png)
+
+**Figure 45. GBMStateMarkers UMAP FeaturePlots.**
+
+![Figure 45: GBMStateMarkers UMAP FeaturePlots](figures/45_GBMStateMarkers_UMAP_FeaturePlots.png)
+
+**Figure 46. GBMStateMarkers NaiveVsRT Violin.**
+
+![Figure 46: GBMStateMarkers NaiveVsRT Violin](figures/46_GBMStateMarkers_NaiveVsRT_Violin.png)
+
+### Cluster composition and Milo differential abundance
+
+Neighborhood sizes, sample-level cluster proportions, and exploratory Milo differential-abundance statistics are shown. There are only two paired patient-derived cultures, so apparent statistical significance requires careful validation.
+
+**Figure 47. Milo NeighborhoodSize Distribution.**
+
+![Figure 47: Milo NeighborhoodSize Distribution](figures/47_Milo_NeighborhoodSize_Distribution.png)
+
+**Figure 48. ClusterComposition BySample.**
+
+![Figure 48: ClusterComposition BySample](figures/48_ClusterComposition_BySample.png)
+
+**Figure 49. Milo DifferentialAbundance Exploratory.**
+
+![Figure 49: Milo DifferentialAbundance Exploratory](figures/49_Milo_DifferentialAbundance_Exploratory.png)
+
+### Paired pseudobulk differential expression
+
+Pseudobulk library sizes and RT-versus-Naive volcano/MA plots show candidate radiation-associated genes. The labeled plots highlight examples such as GEM and KRT6A; the count chart displays four upregulated and one downregulated genes under the plotted criteria. With two pairs, these are exploratory findings.
+
+**Figure 50. Pseudobulk LibrarySizes.**
+
+![Figure 50: Pseudobulk LibrarySizes](figures/50_Pseudobulk_LibrarySizes.png)
+
+**Figure 51. Pseudobulk RTvsNaive Volcano.**
+
+![Figure 51: Pseudobulk RTvsNaive Volcano](figures/51_Pseudobulk_RTvsNaive_Volcano.png)
+
+**Figure 52. Pseudobulk RTvsNaive MAPlot.**
+
+![Figure 52: Pseudobulk RTvsNaive MAPlot](figures/52_Pseudobulk_RTvsNaive_MAPlot.png)
+
+**Figure 53. Pseudobulk RTvsNaive LabeledVolcano View1.**
+
+![Figure 53: Pseudobulk RTvsNaive LabeledVolcano View1](figures/53_Pseudobulk_RTvsNaive_LabeledVolcano_View1.png)
+
+**Figure 54. Pseudobulk RTvsNaive LabeledVolcano View2.**
+
+![Figure 54: Pseudobulk RTvsNaive LabeledVolcano View2](figures/54_Pseudobulk_RTvsNaive_LabeledVolcano_View2.png)
+
+**Figure 55. Pseudobulk DifferentialGeneCounts.**
+
+![Figure 55: Pseudobulk DifferentialGeneCounts](figures/55_Pseudobulk_DifferentialGeneCounts.png)
+
+### Inferred cluster communication and pathway enrichment
+
+A cluster-to-cluster communication network and GO Biological Process/KEGG enrichment charts are included. Several enrichment categories show gene counts of one, and some labels overlap, limiting interpretability. The network is computationally inferred rather than direct experimental evidence of signaling.
+
+**Figure 56. CellChat ClusterCommunication Network.**
+
+![Figure 56: CellChat ClusterCommunication Network](figures/56_CellChat_ClusterCommunication_Network.png)
+
+**Figure 57. GO BP Upregulated Enrichment.**
+
+![Figure 57: GO BP Upregulated Enrichment](figures/57_GO_BP_Upregulated_Enrichment.png)
+
+**Figure 58. GO BP Downregulated Enrichment.**
+
+![Figure 58: GO BP Downregulated Enrichment](figures/58_GO_BP_Downregulated_Enrichment.png)
+
+**Figure 59. KEGG Upregulated Enrichment.**
+
+![Figure 59: KEGG Upregulated Enrichment](figures/59_KEGG_Upregulated_Enrichment.png)
+
+**Figure 60. KEGG Downregulated Enrichment.**
+
+![Figure 60: KEGG Downregulated Enrichment](figures/60_KEGG_Downregulated_Enrichment.png)
+
+### Mesenchymal-like state and radiation-response genes
+
+Paired MES-like module-score means, a radiation-response marker dot plot, and a scaled-expression heatmap are shown. Both patient-derived cultures have higher displayed MES-like mean scores after RT, but this is descriptive and cannot establish a generalizable effect or causal transition.
+
+**Figure 61. GBM MESlike PairedPatientMeans.**
+
+![Figure 61: GBM MESlike PairedPatientMeans](figures/61_GBM_MESlike_PairedPatientMeans.png)
+
+**Figure 62. RadiationResponse Genes BySample DotPlot.**
+
+![Figure 62: RadiationResponse Genes BySample DotPlot](figures/62_RadiationResponse_Genes_BySample_DotPlot.png)
+
+**Figure 63. RadiationResponse Genes ScaledExpression Heatmap.**
+
+![Figure 63: RadiationResponse Genes ScaledExpression Heatmap](figures/63_RadiationResponse_Genes_ScaledExpression_Heatmap.png)
 
 ## Discussion
 
 The analysis is designed to investigate heterogeneity in cultured GBM cells and candidate transcriptional changes following irradiation. Any observed differences must be evaluated against patient-specific variation, cluster composition, sequencing quality, and the very small number of independent samples. Pathway enrichment and ligand–receptor predictions identify hypotheses rather than mechanisms established by experiment.
 
-**Interpretation of specific genes, pathways, and treatment effects will be added after reviewing the actual result tables and plots.**
+**The figure-level descriptions above are grounded in the supplied screenshots.** The original numerical tables and complete model diagnostics were not provided, so biological and statistical claims remain provisional.
 
 ## Limitations
 
@@ -131,7 +403,7 @@ The analysis is designed to investigate heterogeneity in cultured GBM cells and 
 
 ## Conclusion
 
-This repository provides an R-based exploratory workflow for examining single-cell transcriptional heterogeneity and radiation-associated candidate responses in two patient-derived glioblastoma cultures. The outputs can guide further validation, but the current dataset is insufficient for definitive claims about radiation resistance mechanisms or clinical biomarkers.
+This repository documents an R-based exploratory workflow for examining single-cell transcriptional heterogeneity and radiation-associated candidate responses in two patient-derived glioblastoma cultures. The outputs can guide further validation, but the current dataset is insufficient for definitive claims about radiation resistance mechanisms or clinical biomarkers.
 
 ## Repository Structure
 
@@ -141,7 +413,7 @@ GBM-Radiation-scRNAseq/
 ├── GBM_scRNAseq_Analysis.R
 ├── requirements.R
 ├── .gitignore
-└── GBM_plots/                # optional: selected verified figures
+└── figures/                  # 63 supplied analysis screenshots, embedded in README
 ```
 
 ## How to Run
@@ -173,9 +445,9 @@ Core tools include **R, Seurat, SingleCellExperiment, scDblFinder, SingleR, cell
 
 The underlying sequencing data were generated by the investigators who deposited **GSE162931** in GEO. Please cite the dataset's associated primary publication and the relevant software papers when reusing the analysis. This repository represents an independent secondary computational reanalysis.
 
-## Author
+**Youssef Basem**
 
-**Youssef Basem**  
+**GitHub: @youssefbasem2026-lab**  
 GitHub: [@youssefbasem2026-lab](https://github.com/youssefbasem2026-lab)
 
 ## License
