@@ -98,35 +98,35 @@ The violin plots show the distributions of detected genes (nFeature_RNA), total 
 
 **Figure 2. QC PreFilter GBM131 RT2d.**
 
-<img width="907" height="342" alt="Screenshot 2026-11-05 003048" src="https://github.com/user-attachments/assets/8f4ef90a-d7a7-4e58-a511-0f29294d747b" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/e91fa93e-888f-45fb-b17f-87399607122a" />
 
 **Figure 3. QC PreFilter GBM022 Naive.**
 
-<img width="911" height="327" alt="Screenshot 2026-11-05 003054" src="https://github.com/user-attachments/assets/358739b7-2d38-483a-b98d-5f4f7140ba1a" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/bad8e8ab-c450-4078-a136-f3b1e0e304ff" />
 
 **Figure 4. QC PreFilter GBM022 RT2d.**
 
-<img width="887" height="292" alt="Screenshot 2026-11-05 003059" src="https://github.com/user-attachments/assets/f49214a7-42b2-4a60-aae0-5485157351b6" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/ee979896-6c11-4b42-a17b-66f40eef55d3" />
 
 **Figure 5. QC PostFilter GBM131 Naive Overview.**
 
-<img width="876" height="267" alt="Screenshot 2026-11-05 003105" src="https://github.com/user-attachments/assets/39ff1570-3997-4dbf-9f97-e1b615f493e6" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/dbfdae6c-ebce-4b2c-824b-d5fc587db1c4" />
 
 **Figure 6. QC PostFilter GBM131 Naive Refined.**
 
-<img width="841" height="323" alt="Screenshot 2026-11-05 003112" src="https://github.com/user-attachments/assets/accc6ac4-2cc9-4714-8e5d-7745b6721cd6" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/dbe86305-97e3-48c2-8e4a-aa1ced550e74" />
 
 **Figure 7. QC PostFilter GBM131 RT2d.**
 
-<img width="817" height="267" alt="Screenshot 2026-11-05 003119" src="https://github.com/user-attachments/assets/eb68a678-4c6f-400d-8ce8-275dd443595f" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/1e134c55-4f18-4db3-afe6-b682567af298" />
 
 **Figure 8. QC PostFilter GBM022 Naive.**
 
-<img width="823" height="336" alt="Screenshot 2026-11-05 003125" src="https://github.com/user-attachments/assets/05914b68-d7fa-421e-9bbf-fac35b9af6ac" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/bbff3e84-50df-43c5-a9cc-3022c2ee7a27" />
 
 **Figure 9. QC PostFilter GBM022 RT2d.**
 
-<img width="810" height="306" alt="Screenshot 2026-11-05 003134" src="https://github.com/user-attachments/assets/71e85f77-ab7d-4982-a313-18f3df3a5b3d" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/4ce10d80-1a9d-4f5c-8dfb-8b10dc706ec5" />
 
 ### Doublet detection and removal
 
