@@ -134,79 +134,76 @@ scDblFinder doublet scores and class assignments are visualized before and after
 
 **Figure 10. DoubletDetection GBM131 Naive Scatter.**
 
-<img width="782" height="267" alt="Screenshot 2026-11-05 003140" src="https://github.com/user-attachments/assets/b8563e37-9da4-47c3-9bb0-2c8be4ce0b52" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/caaae69a-af53-4312-9b81-44bc8750340d" />
 
 **Figure 11. DoubletDetection GBM131 Naive Violin.**
 
-<img width="786" height="286" alt="Screenshot 2026-11-05 003145" src="https://github.com/user-attachments/assets/943ecea3-ae92-464e-bed7-d55861465102" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/567d08d1-ec8e-4e74-874e-824db4fa3ccb" />
 
 **Figure 12. DoubletDetection GBM131 RT2d Scatter.**
 
-<img width="767" height="298" alt="Screenshot 2026-11-05 003150" src="https://github.com/user-attachments/assets/cfd21fdc-e6dc-4ab2-aa6f-2f0d41808f17" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/28818d42-84f6-4e04-8ada-3b07db0a557c" />
 
 **Figure 13. DoubletDetection GBM131 RT2d Violin.**
 
-<img width="751" height="267" alt="Screenshot 2026-11-05 003155" src="https://github.com/user-attachments/assets/b01f5683-d70d-4508-81be-d2f1fd7edff2" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/af4b71bc-e80f-4401-ba73-886271cbe813" />
 
 **Figure 14. DoubletDetection GBM022 Naive Scatter.**
 
-<img width="742" height="282" alt="Screenshot 2026-11-05 003201" src="https://github.com/user-attachments/assets/c50a45e0-bbd6-43df-be86-1b84b44ca263" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/95c07352-af43-48e9-bd72-0322f5ace664" />
 
 **Figure 15. DoubletRemoval GBM131 Naive Scatter.**
 
-<img width="738" height="282" alt="Screenshot 2026-11-05 003206" src="https://github.com/user-attachments/assets/0531a013-4196-4a53-870d-c806df7e71b5" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/ce79262b-5d86-4485-bae4-0ee30590c0e2" />
 
-**Figure 16. DoubletRemoval GBM131 Naive Violin.**
+**Figure 16. DoubletRemoval GBM131 RT2d Scatter.**
 
-<img width="718" height="280" alt="Screenshot 2026-11-05 003212" src="https://github.com/user-attachments/assets/389dc25e-ff14-47f8-a03c-9d081ff30016" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/eead246d-3861-4d4d-98fa-b37e2fae7f66" />
 
-**Figure 17. DoubletRemoval GBM131 RT2d Scatter.**
+**Figure 17. DoubletRemoval GBM022 Naive Scatter.**
 
-<img width="695" height="297" alt="Screenshot 2026-11-05 003218" src="https://github.com/user-attachments/assets/67c7b5b2-0e1a-45c7-bd48-952dcaa168eb" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/4a35865e-3bfc-4f5a-996f-4c6bd4e74be2" />
 
-**Figure 18. DoubletRemoval GBM022 Naive Scatter.**
+**Figure 18. DoubletRemoval GBM022 RT2d Scatter.**
 
-<img width="686" height="272" alt="Screenshot 2026-11-05 003225" src="https://github.com/user-attachments/assets/dd1ebc6c-5ac6-450f-99e6-34115b31ea93" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/f57b70f0-9b14-424f-acc3-155e901de6c1" />
 
-**Figure 19. DoubletRemoval GBM022 RT2d Scatter.**
+**Figure 19. DoubletRemoval GBM131 RT2d Violin.**
 
-<img width="672" height="305" alt="Screenshot 2026-11-05 003230" src="https://github.com/user-attachments/assets/7ecab579-3eca-4ba7-9a8a-1e64a79465f0" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/cabf49ed-33f1-4c62-96ab-19e437cb3b18" />
 
-**Figure 20. DoubletRemoval GBM131 RT2d Violin.**
+**Figure 20. DoubletRemoval GBM022 RT2d Violin.**
 
-<img width="666" height="277" alt="Screenshot 2026-11-05 003238" src="https://github.com/user-attachments/assets/2ff82852-7796-4d44-a904-2f5ec65366d1" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/03a1e08e-a0f6-486c-8de8-ecbbbda30d34" />
 
-**Figure 21. DoubletRemoval GBM022 RT2d Violin.**
+**Figure 21. DoubletRemoval RemainingCellCounts.**
 
-<img width="652" height="267" alt="Screenshot 2026-11-05 003243" src="https://github.com/user-attachments/assets/d83926da-9aec-43b7-bf47-90bd15de2767" />
-
-**Figure 22. DoubletRemoval RemainingCellCounts.**
-
-<img width="645" height="297" alt="Screenshot 2026-11-05 003249" src="https://github.com/user-attachments/assets/938ed0f8-a385-4837-8e4f-7a53760301c4" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/9e31c1e4-4648-4b76-bccb-36361597f534" />
 
 ### Highly variable feature selection
 
 Mean–variance plots show 2,000 selected highly variable genes (red) against non-variable genes (black). Several views highlight high-variance genes; the exact sample or object associated with each panel is not recoverable from the screenshots alone.
 
-**Figure 23. HVG Selection Unlabeled View1.**
+**Figure 22. HVG Selection Unlabeled View1.**
 
-<img width="627" height="305" alt="Screenshot 2026-11-05 003254" src="https://github.com/user-attachments/assets/7dbfba88-521a-4f6f-9f39-bb93305dfaa5" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/98680ba9-f7b9-4348-a88f-cca0b73f5e02" />
 
-**Figure 24. HVG Selection Unlabeled View2.**
+**Figure 23. HVG Selection Unlabeled View2.**
 
-<img width="622" height="275" alt="Screenshot 2026-11-05 003258" src="https://github.com/user-attachments/assets/5b086a4c-d1af-4e6f-946e-4ea09a299a26" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/706aaa90-c706-4a86-9f67-8583d199c948" />
 
-**Figure 25. HVG Selection Labeled View1.**
+**Figure 24. HVG Selection Labeled View1.**
 
-<img width="612" height="278" alt="Screenshot 2026-11-05 003303" src="https://github.com/user-attachments/assets/bf81bf66-5fe9-4b07-ada3-1004c7f5926c" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/ba9df3d2-b57c-4f90-9320-be65be647b75" />
 
-**Figure 26. HVG Selection Labeled View2.**
+**Figure 25. HVG Selection Labeled View2.**
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/97b1ac66-9c64-4c0a-9f09-50cb36097f07" />
 
-<img width="597" height="326" alt="Screenshot 2026-11-05 003309" src="https://github.com/user-attachments/assets/997d7658-ac0e-48d1-966f-f7637967baa6" />
 
-**Figure 27. HVG Selection Labeled View3.**
+**Figure 26,27. HVG Selection Labeled View3.**
 
-<img width="675" height="321" alt="Screenshot 2026-11-05 003314" src="https://github.com/user-attachments/assets/a43df47c-c24b-465d-8540-a0214379ac62" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/aeabfa1b-97b8-4e41-b736-c8e3ef79b5b2" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/546f1d91-4df5-46c6-bfa5-052495cae0b8" />
 
 ### PCA and sample-level UMAP exploration
 
@@ -214,35 +211,35 @@ An elbow plot, four UMAP clusterings with different cluster counts, and heatmaps
 
 **Figure 28. PCA ElbowPlot.**
 
-<img width="660" height="291" alt="Screenshot 2026-11-05 003320" src="https://github.com/user-attachments/assets/06310ab2-8b97-4742-94d5-04ad1216cc11" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/edb08b7e-2e5b-4685-bdce-074e84e5a4ae" />
 
 **Figure 29. UMAP Clustering 9Clusters.**
 
-<img width="647" height="311" alt="Screenshot 2026-11-05 003325" src="https://github.com/user-attachments/assets/319ab3f7-c4c1-4f8f-bfa9-fb7398a832c1" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/03e91c7b-9c13-41c3-9b14-d7e0c26f952e" />
 
 **Figure 30. UMAP Clustering 8Clusters.**
-
-<img width="640" height="318" alt="Screenshot 2026-11-05 003330" src="https://github.com/user-attachments/assets/e69e0fb1-ae0b-4fc5-a763-8fc13deb6914" />
+<img width="640" height="318" alt="Screenshot 2026-11-05 003330" src="https://github.com/user-attachments/assets/07898542-6653-4fbe-9b11-4238896ecb86" />
 
 **Figure 31. UMAP Clustering 6Clusters.**
 
-<img width="627" height="342" alt="Screenshot 2026-11-05 003336" src="https://github.com/user-attachments/assets/751d505d-f39a-422a-b10e-94adbca116c1" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/5240e9aa-48b5-4afe-8320-08d15bd685e6" />
 
 **Figure 32. UMAP Clustering 4Clusters.**
 
-<img width="617" height="338" alt="Screenshot 2026-11-05 003346" src="https://github.com/user-attachments/assets/b88a1ec1-2f4b-4770-8601-7de6272b8668" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/13d7aa47-03f2-4361-9f8d-2fd397bfee99" />
 
 **Figure 33. PCA Top10Components Heatmaps Set1.**
 
-<img width="738" height="372" alt="Screenshot 2026-11-05 003350" src="https://github.com/user-attachments/assets/69e228d4-03ca-41fd-b14c-eb8d82cfc2b8" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/1a7725e8-730e-45f7-9d23-094c6c7c809b" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/201c299c-428f-4ecc-912e-92be7645f051" />
 
 **Figure 34. PCA PC1 GeneLoadings Heatmap.**
 
-<img width="247" height="97" alt="Screenshot 2026-11-05 003355" src="https://github.com/user-attachments/assets/b20c2342-e4a7-4717-bb4a-a926e1e650be" />
+<img width="247" height="97" alt="Screenshot 2026-11-05 003355" src="https://github.com/user-attachments/assets/812aadf6-4697-45d0-93a8-144b53d365ee" />
 
 **Figure 35. PCA Top10Components Heatmaps Set2.**
 
-<img width="732" height="346" alt="Screenshot 2026-11-05 003403" src="https://github.com/user-attachments/assets/238a0a50-6c87-440c-a8ad-f306c839ad79" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/e4329008-e97f-4d45-894e-b09f93e33cdc" />
 
 ### Reference-based cell annotation
 
@@ -250,19 +247,19 @@ SingleR-derived labels are projected onto UMAP embeddings. These are computation
 
 **Figure 36. SingleR Annotation UMAP View1.**
 
-<img width="705" height="331" alt="Screenshot 2026-11-05 003408" src="https://github.com/user-attachments/assets/efad1884-91fd-4082-abd8-faa388d30182" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/12089310-e040-4e7a-808c-93e6dc7a910b" />
 
 **Figure 37. SingleR Annotation UMAP View2.**
 
-<img width="700" height="327" alt="Screenshot 2026-11-05 003412" src="https://github.com/user-attachments/assets/ba27c0cf-c573-42f9-9e07-4cd6fb0fb380" />
+<img width="700" height="327" alt="Screenshot 2026-11-05 003412" src="https://github.com/user-attachments/assets/9dcea30d-b987-4e8e-9044-49a99ce2ef53" />
 
 **Figure 38. SingleR Annotation UMAP View3.**
 
-<img width="688" height="347" alt="Screenshot 2026-11-05 003417" src="https://github.com/user-attachments/assets/2e7fe9ed-47bf-4fdb-a8f2-0d89aae270a5" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/80a37112-93bf-4565-b3c6-27dadaf1ff3c" />
 
 **Figure 39. SingleR Annotation UMAP View4.**
 
-<img width="676" height="321" alt="Screenshot 2026-11-05 003422" src="https://github.com/user-attachments/assets/7f5029f4-fb36-44c4-87ce-227b9d4d9fe2" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/83d58cea-ba64-405a-bcbd-ecba8683b6ca" />
 
 ### Integrated cell landscape
 
@@ -270,15 +267,15 @@ UMAP embeddings display sample of origin, treatment condition, cluster identitie
 
 **Figure 40. IntegratedUMAP BySample.**
 
-<img width="668" height="300" alt="Screenshot 2026-11-05 003427" src="https://github.com/user-attachments/assets/fcb6017e-83e3-421f-9dca-1fd57ba3b560" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/49e9322e-b2d6-4ccd-8442-002754952f89" />
 
 **Figure 41. IntegratedUMAP ByCondition.**
 
-<img width="651" height="267" alt="Screenshot 2026-11-05 003433" src="https://github.com/user-attachments/assets/412586d7-d05f-4890-8bda-d9eb764ed013" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/75f9285d-8b14-4d28-af81-e35695c34698" />
 
 **Figure 42. IntegratedUMAP ByCluster.**
 
-<img width="635" height="252" alt="Screenshot 2026-11-05 003438" src="https://github.com/user-attachments/assets/a7fc64a2-af74-4d12-9553-e1dc8c3ee56a" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/2d372878-2d8a-4dd5-a9d4-3f4edbd805d6" />
 
 **Figure 43. IntegratedUMAP SingleR Annotations.**
 
