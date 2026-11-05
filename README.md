@@ -218,6 +218,7 @@ An elbow plot, four UMAP clusterings with different cluster counts, and heatmaps
 <img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/03e91c7b-9c13-41c3-9b14-d7e0c26f952e" />
 
 **Figure 30. UMAP Clustering 8Clusters.**
+
 <img width="640" height="318" alt="Screenshot 2026-11-05 003330" src="https://github.com/user-attachments/assets/07898542-6653-4fbe-9b11-4238896ecb86" />
 
 **Figure 31. UMAP Clustering 6Clusters.**
@@ -231,6 +232,7 @@ An elbow plot, four UMAP clusterings with different cluster counts, and heatmaps
 **Figure 33. PCA Top10Components Heatmaps Set1.**
 
 <img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/1a7725e8-730e-45f7-9d23-094c6c7c809b" />
+
 <img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/201c299c-428f-4ecc-912e-92be7645f051" />
 
 **Figure 34. PCA PC1 GeneLoadings Heatmap.**
