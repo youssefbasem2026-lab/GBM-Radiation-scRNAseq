@@ -279,7 +279,7 @@ UMAP embeddings display sample of origin, treatment condition, cluster identitie
 
 **Figure 43. IntegratedUMAP SingleR Annotations.**
 
-<img width="631" height="292" alt="Screenshot 2026-11-05 003443" src="https://github.com/user-attachments/assets/c9d15834-f223-47a9-a04c-671ee20255d2" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/d3419979-1670-40c4-b970-6a046b09394f" />
 
 ### GBM-associated expression programs
 
@@ -287,15 +287,15 @@ Dot, feature, and violin plots visualize selected GBM markers including SOX2, OL
 
 **Figure 44. GBMStateMarkers Cluster DotPlot.**
 
-<img width="652" height="318" alt="Screenshot 2026-11-05 003449" src="https://github.com/user-attachments/assets/5b8f12f3-b794-4e79-90fa-d79fee8cbbf1" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/f82b6a9e-d5d2-4672-a79c-5d15e3ac42f1" />
 
 **Figure 45. GBMStateMarkers UMAP FeaturePlots.**
 
-<img width="687" height="325" alt="Screenshot 2026-11-05 003454" src="https://github.com/user-attachments/assets/700f272b-21b4-47e0-ba40-5a0192c4c2d5" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/b492d327-9b36-400a-8fe7-cdf2376d0f87" />
 
 **Figure 46. GBMStateMarkers NaiveVsRT Violin.**
 
-<img width="672" height="291" alt="Screenshot 2026-11-05 003458" src="https://github.com/user-attachments/assets/d15f3c75-c271-44b5-ae01-ac67f63c2436" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/78ce478d-be42-4461-b2f3-8a818a9de3f6" />
 
 ### Cluster composition and Milo differential abundance
 
@@ -303,15 +303,15 @@ Neighborhood sizes, sample-level cluster proportions, and exploratory Milo diffe
 
 **Figure 47. Milo NeighborhoodSize Distribution.**
 
-<img width="660" height="257" alt="Screenshot 2026-11-05 003504" src="https://github.com/user-attachments/assets/919138ad-c720-4baf-a439-b32c8f1a58aa" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/98c9dcd9-0852-4469-bcf5-961edf77c8e2" />
 
 **Figure 48. ClusterComposition BySample.**
 
-<img width="655" height="306" alt="Screenshot 2026-11-05 003508" src="https://github.com/user-attachments/assets/78cbd0bd-a254-44c3-82f5-6566b76d962c" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/2a32207e-e7b6-415a-bec6-2899b67eac47" />
 
 **Figure 49. Milo DifferentialAbundance Exploratory.**
 
-<img width="642" height="280" alt="Screenshot 2026-11-05 003514" src="https://github.com/user-attachments/assets/ffb94f01-23e3-4d95-a989-2849de318a01" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/935edd05-2aab-4f89-a4ab-eb2be2a522ed" />
 
 ### Paired pseudobulk differential expression
 
@@ -319,67 +319,71 @@ Pseudobulk library sizes and RT-versus-Naive volcano/MA plots show candidate rad
 
 **Figure 50. Pseudobulk LibrarySizes.**
 
-<img width="637" height="297" alt="Screenshot 2026-11-05 003521" src="https://github.com/user-attachments/assets/3b89a218-e88d-4dbe-81e9-5888d04f8c32" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/9a7828d4-dcae-4560-88a2-de8db8e2b2e5" />
 
 **Figure 51. Pseudobulk RTvsNaive Volcano.**
 
-<img width="628" height="272" alt="Screenshot 2026-11-05 003526" src="https://github.com/user-attachments/assets/04fd4845-1ae6-4231-932b-e258fa4a8b5f" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/d563004d-548c-46f8-80ad-13ee52b1e60d" />
 
 **Figure 52. Pseudobulk RTvsNaive MAPlot.**
 
-<img width="610" height="300" alt="Screenshot 2026-11-05 003530" src="https://github.com/user-attachments/assets/2c3714cf-9cfd-4d26-b811-3a48946f3ee5" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/676b2182-c67a-4a94-9692-a842f0e2d4e1" />
 
 **Figure 53. Pseudobulk RTvsNaive LabeledVolcano View1.**
 
-<img width="650" height="293" alt="Screenshot 2026-11-05 003536" src="https://github.com/user-attachments/assets/b42078d6-55e9-437c-980e-8719524a70dc" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/8cad786f-faf1-4a4e-ac87-58dae38e0b93" />
 
-**Figure 54. Pseudobulk RTvsNaive LabeledVolcano View2.**
 
-<img width="640" height="268" alt="Screenshot 2026-11-05 003542" src="https://github.com/user-attachments/assets/1fb9b34e-3751-4622-a6ef-51aa2ea4cdd1" />
+**Figure 54. Pseudobulk DifferentialGeneCounts.**
 
-**Figure 55. Pseudobulk DifferentialGeneCounts.**
-
-<img width="631" height="240" alt="Screenshot 2026-11-05 003548" src="https://github.com/user-attachments/assets/042d3bab-2388-4600-ae9c-e1c2e98ac6d7" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/6fbffbf9-b5cf-4594-9e87-56b3bf4d8109" />
 
 ### Inferred cluster communication and pathway enrichment
 
 A cluster-to-cluster communication network and GO Biological Process/KEGG enrichment charts are included. Several enrichment categories show gene counts of one, and some labels overlap, limiting interpretability. The network is computationally inferred rather than direct experimental evidence of signaling.
 
-**Figure 56. CellChat ClusterCommunication Network.**
+**Figure 55. CellChat ClusterCommunication Network.**
 
-<img width="797" height="375" alt="Screenshot 2026-11-05 003553" src="https://github.com/user-attachments/assets/ec7699f6-17f6-45b2-bc16-8a5dceacc670" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/5913661f-0062-4cb1-90fa-f9080b58ce78" />
 
-**Figure 57. GO BP Upregulated Enrichment.**
+**Figure 56. GO BP Upregulated Enrichment.**
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/c6147b3d-3f70-44d2-9179-aa9ee961cb10" />
 
-<img width="837" height="362" alt="Screenshot 2026-11-05 003558" src="https://github.com/user-attachments/assets/d3a8ef35-523a-4182-8c1a-1f8929dd9bc8" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/f17efc35-af4d-4f8f-98a8-9fda121483be" />
 
-**Figure 58. GO BP Downregulated Enrichment.**
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/fa3bb497-dc2b-49ca-a458-2266766df33e" />
 
-<img width="902" height="457" alt="Screenshot 2026-11-05 003602" src="https://github.com/user-attachments/assets/9775dfd2-e100-4cb7-92b9-283262afe337" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/68940052-3542-484b-abee-b3ad34f380df" />
 
-**Figure 59. KEGG Upregulated Enrichment.**
+**Figure 57. GO BP Downregulated Enrichment.**
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/a0601b39-db9f-4202-b816-f86a5fddb413" />
 
-<img width="895" height="428" alt="Screenshot 2026-11-05 003606" src="https://github.com/user-attachments/assets/fe5bd992-e83c-40b2-aaf2-81eb3f3e1616" />
+**Figure 58. KEGG Upregulated Enrichment.**
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/4d8b0f64-fc93-4a09-8964-8109c373de77" />
 
-**Figure 60. KEGG Downregulated Enrichment.**
-
-<img width="678" height="320" alt="Screenshot 2026-11-05 003610" src="https://github.com/user-attachments/assets/d13c28d8-f307-42b7-a583-bcda5dfe55d1" />
+**Figure 59. KEGG Downregulated Enrichment.**
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/9bbe03a3-f118-4c37-b898-f0035f53e0cf" />
 
 ### Mesenchymal-like state and radiation-response genes
 
 Paired MES-like module-score means, a radiation-response marker dot plot, and a scaled-expression heatmap are shown. Both patient-derived cultures have higher displayed MES-like mean scores after RT, but this is descriptive and cannot establish a generalizable effect or causal transition.
 
-**Figure 61. GBM MESlike PairedPatientMeans.**
+**Figure 60 Generate violin plots for each GBM state**
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/ef9c1bde-21b4-45b1-aba2-e3f66e4e8d54" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/7c9ebfd0-f351-4b7c-984e-f9f53df6df01" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/8c630b65-0cf8-44e1-8107-0e66b9f8a813" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/487bb0f3-0185-4fee-86b8-cb35dd7fbc9e" />
 
-<img width="665" height="288" alt="Screenshot 2026-11-05 003615" src="https://github.com/user-attachments/assets/a4feab38-8c5d-4fc6-8d3b-1adc67b20d09" />
+**Figure 61. GBM MESlike PairedPatientMeans.**
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/04caa0d0-e815-4315-97c8-23f229b81ca5" />
 
 **Figure 62. RadiationResponse Genes BySample DotPlot.**
 
-<img width="653" height="282" alt="Screenshot 2026-11-05 003620" src="https://github.com/user-attachments/assets/9ccf3543-211c-45a7-afc0-3508b4a8313c" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/957b1622-222b-4c29-a9aa-7ae13b85c1ff" />
 
 **Figure 63. RadiationResponse Genes ScaledExpression Heatmap.**
 
-<img width="802" height="450" alt="Screenshot 2026-11-05 003624" src="https://github.com/user-attachments/assets/9acbd93b-f113-42c9-a921-cbdb3e0537a4" />
+<img width="927" height="483" alt="image" src="https://github.com/user-attachments/assets/ce6b23f2-509b-4dfd-9246-85ed28739426" />
 
 ## Discussion
 
